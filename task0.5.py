@@ -1,6 +1,5 @@
-def area_of_triangle(b, h):
-    print(1 / 2 * (b * h))
+def area_of_triangle(a, b, c):
+    print(1 / 2 * (a + b + c))
 
 
-area_of_triangle(3, 6)
-
+area_of_triangle(4, 3, 5)
