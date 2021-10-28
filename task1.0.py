@@ -1,5 +1,5 @@
 def common_letters(first, second):
-    common = []
+    common = ["Common letters:"]
     for i in set(first):
         for j in set(second):
             if i == j:
@@ -8,4 +8,3 @@ def common_letters(first, second):
 
 
 common_letters("house", "computers")
-
