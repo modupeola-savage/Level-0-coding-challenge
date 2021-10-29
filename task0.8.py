@@ -1,4 +1,4 @@
-def convert_time(x):
+def convertTime(x):
     hr = x // 60
     min = x % 60
 
@@ -12,5 +12,5 @@ def convert_time(x):
         print(str(hr) + " " + "hour" + "," + " " + str(min) + " " + "minutes")
 
 
-convert_time(0)
+convertTime(0)
 
