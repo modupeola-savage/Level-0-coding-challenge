@@ -1,5 +1,9 @@
-def area_of_triangle(a, b, c):
-    print(1 / 2 * (a + b + c))
+def area_of_tiangle(a, b, c):
+    s = 1 / 2 * (a + b + c)
+    x = (s - a) * (s - b) * (s - c)
+    y = s * x
+    z = y ** (1 / 2)
+    print(z)
 
 
-area_of_triangle(4, 3, 5)
+area_of_tiangle(3, 4, 5)
