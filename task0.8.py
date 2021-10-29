@@ -12,5 +12,5 @@ def convert_time(x):
         print(str(hr) + " " + "hour" + "," + " " + str(min) + " " + "minutes")
 
 
-convert_time(133)
+convert_time(0)
 
